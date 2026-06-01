@@ -1,0 +1,42 @@
+<students>
+    <student>
+        <firstname>DINAKAR</firstname>
+        <latname>GADDAM</lastname>
+        <dob>2000-02-02</d0b>
+        <mobile>1234567890</mobile>
+        <address>
+            <permanant_address>
+                <street>101</street>
+                <addressline>Ameerpet</addressline>
+                <addressline2>4th cross</addressline2>
+                <city>Hyderabad</city>
+            <permanant_address>
+            <Present_address>
+                <street>101</street>
+                <addressline>Ameerpet</addressline>
+                <addressline2>4th cross</addressline2>
+                <city>Hyderabad</city>
+            </Present_address>
+        </address>
+    </student>
+    <student>
+        <firstname>DINAKAR</firstname>
+        <latname>GADDAM</lastname>
+        <dob>2000-02-02</d0b>
+        <mobile>1234567890</mobile>
+        <address>
+            <permanant_address>
+                <street>101</street>
+                <addressline>Ameerpet</addressline>
+                <addressline2>4th cross</addressline2>
+                <city>Hyderabad</city>
+            <permanant_address>
+            <Present_address>
+                <street>101</street>
+                <addressline>Ameerpet</addressline>
+                <addressline2>4th cross</addressline2>
+                <city>Hyderabad</city>
+            </Present_address>
+        </address>
+    </student>
+</students>

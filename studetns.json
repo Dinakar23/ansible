@@ -1,0 +1,45 @@
+
+{
+    "students": 
+    [
+        {
+           
+            "first_name" : "Dinakar",
+            "lastname" : "Gaddam",
+            "address" :[
+            {
+                "type" : "permanant",
+                "street":"102",
+                "apartment_name" : "Keerthi apartment",
+                "city" : "Hyd"
+            },
+            {
+                "type" : "Temporary",
+                "street":"102",
+                "apartment_name" : "Keerthi apartment",
+                "city" : "Hyd"
+            }
+        ] 
+        },
+        {
+           
+            "first_name" : "Dinakar",
+            "lastname" : "Gaddam",
+            "address" :[
+            {
+                "type" : "permanant",
+                "street":"102",
+                "apartment_name" : "Keerthi apartment",
+                "city" : "Hyd"
+            },
+            {
+                "type" : "Temporary",
+                "street":"102",
+                "apartment_name" : "Keerthi apartment",
+                "city" : "Hyd"
+            }
+        ] 
+        }
+    ]
+        
+}
