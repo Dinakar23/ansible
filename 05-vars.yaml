@@ -10,7 +10,7 @@
   - name : printing the information
     vars :
       COURSE : " DevSecOps with AiOps"
-      DURATION : 150 HRS
+      DURATION : 110 HRS
     debug : 
       msg : " I'm started Practicing {{ COURSE }} for the Automation and the trainer is  {{ TRAINER }} duration is {{ DURATION }} "
 
