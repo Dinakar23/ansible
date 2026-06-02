@@ -4,4 +4,4 @@
   tasks :
   - name : Print names through the arguements
     debug :
-      msg : "Name is  {{ name }}"
+      msg : "Hello {{ name }}"
