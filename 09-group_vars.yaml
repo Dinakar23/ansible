@@ -1,4 +1,4 @@
-- name : Practicing the inventory variables
+- name : Practicing the group variables
   hosts : frontend
   #connection : local
   tasks :
