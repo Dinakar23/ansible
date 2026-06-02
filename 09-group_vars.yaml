@@ -4,4 +4,4 @@
   tasks :
   - name : print variables information
     debug :
-      msg : " I'm started Practicing {{ COURSE }} for the Automation and the trainer is  {{ TRAINER }} duration is {{ DURATION }} "
+      msg : " I'm started Practicing {{ COURSE }} for the Automation and the trainer is  {{ TRAINER }} duration is {{ DURATION }} my name is {{ my_name }}"
