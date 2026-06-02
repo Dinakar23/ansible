@@ -3,4 +3,4 @@
   tasks :
   - name : Print names through the arguements
     debug :
-      msg : "Name is  {{ name_ }}"
+      msg : "Name is  {{ name }}"
