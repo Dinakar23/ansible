@@ -1,0 +1,14 @@
+- name : Practicing task level variables in Ansible
+  hosts : localhost
+  connection : local
+  vars :
+    COURSE : Ansible
+    TRAINER : Dinakar
+
+  tasks :
+  - name : printing the information
+    vars :
+      COURSE : " DevSecOps with AiOps"
+    debug : 
+      msg : " I'm started Practicing {{ COURSE }} for the Automation and the trainer is  {{ TRAINER }} "
+
