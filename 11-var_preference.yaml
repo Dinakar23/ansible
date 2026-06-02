@@ -4,10 +4,10 @@
     full_name : "Dinakar from play"
   # vars_files :
   #   - course.yaml
-  vars_prompt :
-  - name : full_name
-    prompt : "please enter your full_name "
-    private : false
+  # vars_prompt :
+  # - name : full_name
+  #   prompt : "please enter your full_name "
+  #   private : false
   tasks :
   - name : Print vars preference
     vars :
@@ -17,6 +17,6 @@
 
 
 # 1.first preference goes to commandline ARGUEMNETS 
-# 2. Task
+# 2. Tasks
 # 3. vars_files
-#
+# 4. prompt
