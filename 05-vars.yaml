@@ -4,11 +4,13 @@
   vars :
     COURSE : Ansible
     TRAINER : Siva
+    DURATION : 150 HRS
 
   tasks :
   - name : printing the information
     vars :
       COURSE : " DevSecOps with AiOps"
+      DURATION : 150 HRS
     debug : 
-      msg : " I'm started Practicing {{ COURSE }} for the Automation and the trainer is  {{ TRAINER }} "
+      msg : " I'm started Practicing {{ COURSE }} for the Automation and the trainer is  {{ TRAINER }} duration is {{ DURATION }} "
 
