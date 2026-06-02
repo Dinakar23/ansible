@@ -1,5 +1,5 @@
 - name : Install and start nginx
-  hosts : frontend
+  hosts : all
   become : yes
   tasks :
   - name : Install nginx
