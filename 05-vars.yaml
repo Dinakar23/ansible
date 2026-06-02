@@ -3,7 +3,7 @@
   connection : local
   vars :
     COURSE : Ansible
-    TRAINER : Dinakar
+    TRAINER : Siva
 
   tasks :
   - name : printing the information
