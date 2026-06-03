@@ -1,0 +1,9 @@
+- name : Lets dive into Fileters
+  hosts : local
+  connection : local
+  vars :
+    topics : Linux , shell , ansible , python
+  tasks :
+  - name : to convert string to list
+    debug :
+      msg : "{{ topics | split ('','') }}"  
