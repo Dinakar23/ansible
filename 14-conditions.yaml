@@ -2,7 +2,7 @@
   hosts : local
   connection : local
   vars :
-    total_live_sessions : 4
+    total_live_sessions : 4 
   tasks :
   - name : " Is ansible took more than 5 sesssions"
     debug :
