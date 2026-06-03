@@ -1,0 +1,13 @@
+- name : Let's learn loops
+  hosts : local
+  connection : local
+
+  tasks :
+  - name : 
+    debug :
+      msg : "Hi {{ item }}" # item is reserved special variable
+    loop:
+    - Dinakar
+    - Raveendra
+    - Vinod
+    - Kiran
