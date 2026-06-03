@@ -3,7 +3,7 @@
   connection : local
   vars :
     topics : Linux , shell , ansible , python
-  tagMap:
+  tagMaps:
     name : ansible
     project : roboshop
     environment : Dev
