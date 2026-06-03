@@ -1,6 +1,6 @@
 - name : Installing packages
   hosts : frontend
-  become : true
+  become : yes
   
   tasks :
   - name : Installing packages
