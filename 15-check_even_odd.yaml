@@ -2,10 +2,10 @@
   hosts : local
   connection : local
   vars :
-    given_number : 7
+    given_number : 6
 
   tasks :
-  
+
   - when : given_number %  2 == 0
     name : checking is even
     debug :
