@@ -4,4 +4,4 @@
 
   tasks :
   -name : check roboshop user exitst or not
-    command : id roboshop
+  command : id roboshop
