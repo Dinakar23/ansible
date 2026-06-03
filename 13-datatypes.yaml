@@ -12,7 +12,7 @@
     - aws
     - Ansible
     more_details : #map
-      months : "5"
+      months : 5
       trainer : "Siva"
   tasks :
   - name : print the information
