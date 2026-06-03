@@ -14,12 +14,12 @@
     more_details : #map
       months : "5"
       trainer : "Siva"
-    tasks :
-    - name : print the information
-      debug:
-        msg : |
-          name : {{ course }}
-          duration : {{ duration }}
-          is_it_live : {{ is_live_sessions }}
-          topics : {{ topics }}
-          more_details : {{ more_details }}
+  tasks :
+  - name : print the information
+    debug:
+      msg : |
+        name : {{ course }}
+        duration : {{ duration }}
+        is_it_live : {{ is_live_sessions }}
+        topics : {{ topics }}
+        more_details : {{ more_details }}
