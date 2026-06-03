@@ -28,3 +28,7 @@
   - name : Convert to UPPER
     debug :
       msg : " {{ name | upper }}"
+
+  - name : Convert to lower
+    debug : 
+      msg : "{{ name | lower }}"
