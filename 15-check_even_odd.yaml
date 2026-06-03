@@ -4,12 +4,12 @@
   vars :
     given_number : 7
   tasks :
-    - name : checking is even
-      debug :
-        msg : " The given number {{ given_number }} is even "
-      when : given_number %  2
+  - name : checking is even
+    debug :
+      msg : " The given number {{ given_number }} is even "
+    when : given_number %  2
 
-    - name : checking is odd 
-      debug :
-        msg : " The given number {{ given_number }} is even "
-      when : given_number %  2 
+  - name : checking is odd 
+    debug :
+      msg : " The given number {{ given_number }} is even "
+    when : given_number %  2 
