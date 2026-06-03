@@ -3,5 +3,5 @@
   connection : local
 
   tasks :
-  -name : check roboshop user exitst or not
-  command : id roboshop
+  - name : check roboshop user exitst or not
+    command : id roboshop
