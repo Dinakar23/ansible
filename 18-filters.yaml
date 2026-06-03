@@ -17,4 +17,4 @@
       msg : "{{ greetings | default ('Welcome to Nothing') }}"
   - name : Convert map to list
     debug :
-     msg : "Converting from Maps to List {{ tagMap | dict2items }}"
+     msg : "Converting from Maps to List {{ tagMaps | dict2items }}"
