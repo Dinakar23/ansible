@@ -1,6 +1,7 @@
 - name : Starts with Error handling
   hosts : local
   connection : local
+  become : yes
 
   tasks :
   - name : check roboshop user exitst or not
