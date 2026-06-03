@@ -1,0 +1,11 @@
+- name : checking the sesssions
+  hosts : local
+  connection : local
+  vars :
+    total_live_sessions : 7
+  tasks :
+  - name : " Is ansible took more than 5 sesssions"
+    debug :
+      msg : "Yes it took more than 5 sesssions"
+    when : total_live_sessions > 5
+    
