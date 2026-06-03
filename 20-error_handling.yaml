@@ -1,0 +1,7 @@
+- name : Starts with Error handling
+  hosts : local
+  connection : local
+
+  tasks :
+  -name : check roboshop user exitst or not
+    command : id roboshop
