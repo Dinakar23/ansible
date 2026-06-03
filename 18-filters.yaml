@@ -3,6 +3,10 @@
   connection : local
   vars :
     topics : Linux , shell , ansible , python
+  tagMap:
+    name : ansible
+    project : roboshop
+    environment : Dev
   tasks :
   - name : to convert string to list
     debug :
@@ -11,3 +15,6 @@
   - name : Default Value
     debug :
       msg : "{{ greetings | default ('Welcome to Nothing') }}"
+  - name : Convert map to list
+    debug :
+     msg :"Converting from Maps to List {{ tagMap | dict2items }}"
