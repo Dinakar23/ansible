@@ -1,15 +1,15 @@
 - name : checking the given number is even or odd
   hosts : local
   connection : local
-  # vars :
-  #   given_number : 6
+  vars :
+    given_number : 7
   tasks :
     - name : checking is even
       debug :
         msg : " The given number {{ given_number }} is even "
-      when : given_number %  2 == 0
+      when : given_number /  2 == 0
 
     - name : checking is odd 
       debug :
         msg : " The given number {{ given_number }} is even "
-      when : given_number % 2 !=0
+      when : given_number /  2 != 0
