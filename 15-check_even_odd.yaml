@@ -6,5 +6,5 @@
   tasks :
     - name : checking
       debug :
-        msg : " The given {{ given_number }} is even "
+        msg : " The given number {{ given_number }} is even "
       when : given_number /  2
