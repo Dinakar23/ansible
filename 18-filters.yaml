@@ -8,6 +8,7 @@
       project : roboshop
       environment : Dev
     list : [{'key': 'name', 'value': 'ansible'}, {'key': 'project', 'value': 'roboshop'}, {'key': 'environment', 'value': 'Dev'}]
+    name : Gaddam Dinakar
   tasks :
   - name : to convert string to list
     debug :
@@ -24,3 +25,6 @@
   - name : convert list map
     debug :
       msg : "{{ list | items2dict }}"
+  - name : Convert to UPPER
+    debug :
+      msg : " {{ name | upper }}"
