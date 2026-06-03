@@ -1,20 +1,3 @@
-# - name : checking the given number is even or odd
-#   hosts : local
-#   connection : local
-#   vars :
-#     given_number : 7
-
-#   tasks :
-
-#   - when : given_number %  2 == 0
-#     name : checking is even
-#     debug :
-#       msg : " The given number {{ given_number }} is even "
-    
-#   - name : checking is odd 
-#     debug :
-#       msg : " The given number {{ given_number }} is odd "
-#     when : given_number %  2 != 0
 - name : ansible_facts
   hosts : frontend
   tasks :
