@@ -9,6 +9,7 @@
       environment : Dev
     list : [{'key': 'name', 'value': 'ansible'}, {'key': 'project', 'value': 'roboshop'}, {'key': 'environment', 'value': 'Dev'}]
     name : Gaddam Dinakar
+    ip_address : 345:24:23:123
   tasks :
   - name : to convert string to list
     debug :
@@ -32,3 +33,7 @@
   - name : Convert to lower
     debug : 
       msg : "{{ name | lower }}"
+
+  - name : Checking the ip is valid or not
+    debug : 
+      msg : "{{ ip_address | ansible.utils.ipv4 }}"
