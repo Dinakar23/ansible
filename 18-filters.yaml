@@ -7,6 +7,7 @@
       name : ansible
       project : roboshop
       environment : Dev
+    list : [{'key': 'name', 'value': 'ansible'}, {'key': 'project', 'value': 'roboshop'}, {'key': 'environment', 'value': 'Dev'}]
   tasks :
   - name : to convert string to list
     debug :
@@ -15,6 +16,11 @@
   - name : Default Value
     debug :
       msg : "{{ greetings | default ('Welcome to Nothing') }}"
+
   - name : Convert map to list
     debug :
      msg : "Converting from Maps to List {{ tagMaps | dict2items }}"
+
+  - name : convert list map
+    debug :
+      msg : "{{ list | items2dict }}"
