@@ -10,4 +10,4 @@
   
   - name : Default Value
     debug :
-      msg : "{{ greetings | Default ('Welcome to Nothing') }}"
+      msg : "{{ greetings | default ('Welcome to Nothing') }}"
