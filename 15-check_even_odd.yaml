@@ -2,9 +2,9 @@
   hosts : local
   connection : local
   vars :
-    number : 6
+    given_number : 6
   tasks :
     - name : checking
       debug :
-        msg : " It is even number "
+        msg : " The given {{ given_number }} is even "
       when : number /  2
