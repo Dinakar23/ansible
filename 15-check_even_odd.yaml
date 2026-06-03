@@ -3,7 +3,9 @@
   connection : local
   vars :
     given_number : 7
+
   tasks :
+  
   - when : given_number %  2 == 0
     name : checking is even
     debug :
